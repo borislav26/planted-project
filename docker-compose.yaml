@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  backend:
+    build: './backend'
+    environment:
+      - WORKING_DIR=data/
+    ports:
+      - '80:80'
+
+  frontend:
+    build: './frontend'
+    stdin_open: true
+    tty: true
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./frontend:/app
