@@ -6,9 +6,7 @@ A couple of notes about project:
   - Gin is used as package for server running and api endpoints making
   
 In order you want to run unit tests on backend, checkout project and position yourself in /backend repository and run command:
-  - `go test ./...`
-  or
-  - `go test ./...`
+  - `go test ./...` or `go test ./... -v`
   
 Both commands will run all tests on backend, but second one will show tests that has been run with statuses.
 
