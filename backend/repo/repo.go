@@ -24,6 +24,7 @@ type (
 
 func (r GenericSimpleRepository[T]) LoadData(fileName string) (elements []*T, err error) {
 	workingDir := os.Getenv("WORKING_DIR")
+
 	bytes, err := os.Open(fmt.Sprintf("%s%s", workingDir, fileName))
 	if err != nil {
 		return nil, utils.NewRepositoryError(err)
