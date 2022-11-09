@@ -1,4 +1,4 @@
-# Planted-project
+# Planted project
 
 A couple of notes about project:
   - On the backend I have used go programming language and on frontend is React.js library
