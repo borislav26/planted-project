@@ -10,10 +10,6 @@ In order you want to run unit tests on backend, checkout project and position yo
   
 Both commands will run all tests on backend, but second one will show tests that has been run with statuses.
 
-For ranking of zipcodes, I think there is mistake with data where for every entry we have same zipcode, but code is implemented in way to support different
-values and ranking.
-
-
 There is two ways to run this application in your local environment:
   - You can checkout this project and position yourself in planted directory and run command `docker-compose up --build`
   - Pull two docker images from pulic dockerhub repositories:
